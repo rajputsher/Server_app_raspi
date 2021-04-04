@@ -19,5 +19,5 @@ Followed the steps in this [tutorial](https://www.instructables.com/Google-Home-
 
 ## To send commands using app
 
-1. Download the app [HTTP Shortcuts](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts&hl=de&gl=US)
-2. Import [this]() json file to the app
+1. Download the app [HTTP Request Shortcuts](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts&hl=de&gl=US)
+2. Import [this](https://github.com/rajputsher/Server_app_raspi/blob/master/LED_Strips.json) json file to the app. Make sure the raspberry-pi IP is used in the HTTP request.
