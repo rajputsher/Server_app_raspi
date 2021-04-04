@@ -1,0 +1,530 @@
+{
+  "categories": [
+    {
+      "background": "black",
+      "id": "a5c3a533-c885-40ea-b420-0350bf5128ff",
+      "name": "Color",
+      "shortcuts": [
+        {
+          "iconName": "flat_color_play",
+          "id": "efdafd51-a71e-4e4b-98cf-b6aa531d1575",
+          "method": "POST",
+          "name": "BLUE",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "0ad78aae-aa68-41e4-896c-da549ea764e4",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/blue"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "faf782ba-212f-437c-b962-073f7fd78d02",
+          "method": "POST",
+          "name": "GOLD",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "86e267d6-945c-4778-ab2f-43f8f7c4c63a",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/gold"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "a948d209-4916-41ab-b105-05be86df8608",
+          "method": "POST",
+          "name": "BLUE Global",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "b366f3b2-455c-4df2-99d1-d71344b0f6c9",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://255.255.255.255:3000/color/blue"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "efe1fe17-81a2-4f76-b342-1b09116d416a",
+          "method": "POST",
+          "name": "GOLD Global",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "7e76b96e-918f-4b74-a2bb-96e1c05aff89",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://255.255.255.255:3000/color/gold"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "72b14655-d23c-45dd-b1db-ff40375b2871",
+          "method": "POST",
+          "name": "LIME Global",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "c0ebe319-495c-4930-a9d9-20417f5000f4",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://255.255.255.255:3000/color/lime"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "ab92817a-23bd-4cd0-9995-1707d4272313",
+          "method": "POST",
+          "name": "OFF",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "96f48bd5-6db9-43f0-8a92-3e06f20f9db9",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/off"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "77907d6b-9338-488d-9a57-f870803a3e6b",
+          "method": "POST",
+          "name": "Light BLUE",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "95a517b5-917f-48de-8974-12f1f5a98a86",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/hblue"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "0460409d-023c-454d-b828-cdce81c8f9d5",
+          "method": "POST",
+          "name": "LIME",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "466f13e2-a96b-49bc-b4ad-5267d7abb323",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/lime"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "61c24fbf-4403-44ef-bb82-48b824cd89cc",
+          "method": "POST",
+          "name": "RED",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "28fb80b6-3bc7-451b-ae3d-87311ca44f05",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/red"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "b111ce6f-96b4-4c59-9c57-add20157c3ae",
+          "method": "POST",
+          "name": "PINK",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "79701482-8a4a-42a1-bd06-d03ce21401f9",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/pink"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "159659a8-eac3-4473-8dbf-b86a0eaf488c",
+          "method": "POST",
+          "name": "MAROON",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "3bdb0483-aa5f-44e3-8d95-0c5fc2e85c25",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/maroon"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "1263fc23-97a4-49fd-a6e1-2b4c3a41684b",
+          "method": "POST",
+          "name": "GREEN",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "9745b9f7-8e11-4e92-9a9d-5483e606ce63",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/green"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "00ba2ad0-aed8-4f43-b097-32bed515e62a",
+          "method": "POST",
+          "name": "INDIGO",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "9a86cfe9-7c57-465c-aeaf-9ea9e670432a",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/indigo"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "958a4a78-0722-4716-9101-869eee6d0ccf",
+          "method": "POST",
+          "name": "WHITE",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "cd6f923f-f3d3-4e2e-92a8-d59343860d89",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/on"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "3119d2a4-dd3f-4660-996f-0080441cf6b1",
+          "method": "POST",
+          "name": "ORANGE",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "62cde5ce-b45b-4108-851d-614201a564b3",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/orange"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "386081f5-8e3f-4344-9414-4c4c6db69fd4",
+          "method": "POST",
+          "name": "YELLOW",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "201ed534-936f-43ac-8181-96607457894e",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/yellow"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "17d39ea5-32f2-4575-b017-e36f037d842f",
+          "method": "POST",
+          "name": "BROWN",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "f8c3f368-7a73-4335-a371-dcca79632df0",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/brown"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "30345fc3-659d-4c9d-a86d-5222143c58b5",
+          "method": "POST",
+          "name": "PURPLE",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "cc9412c5-5877-4624-b887-efcaab7c488b",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/purple"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "67eebedb-f20e-4baf-b7cc-b658dab5a4f5",
+          "method": "POST",
+          "name": "WARM",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "cf33aa4d-3fb3-459c-b5db-880266ba0b30",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/warm"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "9590203d-bb64-408a-a2b1-385a9e4fcc8c",
+          "method": "POST",
+          "name": "TEAL ",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "1d33d095-d87f-4333-be10-3d2ce8435c95",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/teal"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "ebe91a86-2cbd-431c-ac35-8ea982e528c1",
+          "method": "POST",
+          "name": "RANDOM",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "fba7bfd3-a5eb-47bf-9d66-699c98cae652",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/random"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "10c6cd07-0fb7-4861-9c38-6ea99568f40d",
+          "method": "POST",
+          "name": "SILVER",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "05656a40-c069-4581-a1b9-3bf7ee545e61",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/silver"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "5e944972-83e0-466d-9645-c7a5cd5be5c0",
+          "method": "POST",
+          "name": "stripRainbowCycle",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "76e291d2-abfc-419c-aaa6-bdcf8a01bf40",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/rainbow%20cycle"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "38373ffd-f8c0-4415-b778-799680cef9bd",
+          "method": "POST",
+          "name": "stripRainbow",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "54f626e8-53bc-4b5d-b720-51b7a95eec77",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/rainbow"
+        }
+      ]
+    },
+    {
+      "id": "3958f90f-6728-4f7c-a07a-394763ace120",
+      "name": "Chase",
+      "shortcuts": [
+        {
+          "iconName": "flat_color_play",
+          "id": "3637cf7f-8e68-4fda-8914-3a42a7d14c60",
+          "method": "POST",
+          "name": "stripChaseRainbow",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "7bc5f624-6044-4285-a5f9-7f69ad0d6f91",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/chase%20rainbow"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "89a6fbf0-433a-4e59-943b-c62c38d7a1a2",
+          "method": "POST",
+          "name": "stripchasegold",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "1f9b5302-5f09-41d3-b8a1-62e357121363",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/chase%20gold"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "bdec1cc4-dbb1-433f-b4e3-a58560bbbe85",
+          "method": "POST",
+          "name": "stripchaseteal",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "b8d09cc0-c73e-4854-82bc-c4000c75c7c6",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/chase%20teal"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "74333be2-5390-4b1e-b9a8-cbf2a4384f74",
+          "method": "POST",
+          "name": "stripchaseRed",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "48317fbd-5c07-4227-8219-491658fa7c03",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/chase%20red"
+        }
+      ]
+    },
+    {
+      "id": "cc133959-736c-4f77-bec1-f73fe875dab2",
+      "name": "Wipe",
+      "shortcuts": [
+        {
+          "iconName": "flat_color_play",
+          "id": "738eea04-b52a-4e5f-94d7-089e8f7efbe6",
+          "method": "POST",
+          "name": "stripwipe-Purple",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "626ab6c0-ace9-4674-9e0f-05df3769855f",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/color%20wipe%20purple"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "67738b98-d97d-4429-8c74-0a5a93cdcc3f",
+          "method": "POST",
+          "name": "stripwipeTeal",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "68ba7486-bc7b-4134-93cf-e4ae95924404",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/color%20wipe%20teal"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "556ba659-21c6-44e3-9a9a-c179d71f98c4",
+          "method": "POST",
+          "name": "stripwipegold",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "75efc8f1-b89e-43d8-a517-32aa7554b9ec",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/color%20wipe%20gold"
+        }
+      ]
+    },
+    {
+      "id": "7bfcd0e5-ffca-4cdb-83c7-b1440a983831",
+      "name": "AntiWipe",
+      "shortcuts": [
+        {
+          "iconName": "flat_color_play",
+          "id": "79baf7f6-2bf0-4933-bf9e-44b8936fa876",
+          "method": "POST",
+          "name": "Gold",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "3e32534a-f381-446b-8746-6c2eab35579a",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/anti%20color%20wipe%20gold"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "e37b5dfd-dd86-4d8d-b433-af7037134c9b",
+          "method": "POST",
+          "name": "Purple",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "9d2caea1-6622-4f4d-8bb6-90922ba6e9cf",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/anti%20color%20wipe%20purple"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "2ec49d74-f9a8-40b3-b266-77dd48d11f49",
+          "method": "POST",
+          "name": "Teal",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "d32de069-fed6-49e5-a8f6-86030b64661f",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/anti%20color%20wipe%20teal"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "30f46a6a-8139-4bf4-a07d-75542b09f638",
+          "method": "POST",
+          "name": "Random",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "55c58d36-c218-490c-b60e-70c79121056d",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/random%20wipe"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "94800d69-d36b-4c52-a723-4c0eabbbd30c",
+          "method": "POST",
+          "name": "Grand Random",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "6cc61614-8cd6-4040-b664-9603f85cbd16",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/grand%20random"
+        }
+      ]
+    },
+    {
+      "id": "ffe78a2a-5b70-40a4-bc2b-b835f0946c13",
+      "name": "TwoWay",
+      "shortcuts": [
+        {
+          "iconName": "flat_color_play",
+          "id": "fdc1fc04-b57c-48bf-af3f-7f4176a195fc",
+          "method": "POST",
+          "name": "Red",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "36921326-3e8e-4d19-ba64-c32d14bd9f7b",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/two%20way%20red"
+        },
+        {
+          "iconName": "flat_color_play",
+          "id": "035fd3f5-fff2-436a-829d-ec8fc04b3d9d",
+          "method": "POST",
+          "name": "Random",
+          "requestBodyType": "x_www_form_urlencode",
+          "responseHandling": {
+            "id": "adf58cba-bbbf-4307-98be-71a033295948",
+            "uiType": "toast"
+          },
+          "timeout": 0,
+          "url": "http://192.168.178.20:3000/color/two%20way%20random"
+        }
+      ]
+    }
+  ],
+  "version": 43
+}
