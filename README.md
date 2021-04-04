@@ -21,3 +21,7 @@ Followed the steps in this [tutorial](https://www.instructables.com/Google-Home-
 
 1. Download the app [HTTP Request Shortcuts](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts&hl=de&gl=US)
 2. Import [this](https://github.com/rajputsher/Server_app_raspi/blob/master/LED_Strips.json) json file to the app. Make sure the raspberry-pi IP is used in the HTTP request.
+
+## Controlling LEDs
+
+[This](https://github.com/rajputsher/led_strip_control_raspi_3B) repository contains the steps to control the LEDs WS-2812
